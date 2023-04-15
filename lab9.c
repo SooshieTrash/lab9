@@ -18,7 +18,7 @@ struct HashType
 
 int hash(int x)
 {
-    int hashValue = x % 9;
+    int hashValue = x % 11;
     return hashValue;
 }
 
